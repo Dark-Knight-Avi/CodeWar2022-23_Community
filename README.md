@@ -23,4 +23,13 @@ Website: https://www.spoj.com/problems/classical/
 
 Platform6: InterviewBit
 Website: https://www.interviewbit.com/
+
+Platform7: CodeForces
+Wecsite: https://codeforces.com/
+
+Platform8: AtCoder
+Website: https://atcoder.jp/
+
+Platform9: HackerEarth
+Website: https://www.hackerearth.com/practice/
 (Get ready for interviews by taking Mock Interview tests from here)
