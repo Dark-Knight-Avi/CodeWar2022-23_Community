@@ -6,30 +6,30 @@ These 6 platforms are called Coding Mafia.
 Strong your CP...
 Gear up👏👏👏
 
-Platform1: HackerRank
+Platform1: HackerRank(HR)
 Website: https://www.hackerrank.com/
 
-Platform2: LeetCode
+Platform2: LeetCode(LC)
 Website: https://leetcode.com/problemset/all
 
-Platform3: CodeChef
+Platform3: CodeChef(CC)
 Website: https://www.codechef.com/
 
-Platform4: Coding Ninjas - CodeStudio
+Platform4: Coding Ninjas(CN) - CodeStudio
 Website: https://www.codingninjas.com/codestudio/problems
 
-Platform5: SPOJ
+Platform5: SPOJ(SP)
 Website: https://www.spoj.com/problems/classical/
 
-Platform6: InterviewBit
+Platform6: InterviewBit(IB)
 Website: https://www.interviewbit.com/
 
-Platform7: CodeForces
+Platform7: CodeForces(CF)
 Wecsite: https://codeforces.com/
 
-Platform8: AtCoder
+Platform8: AtCoder(AC)
 Website: https://atcoder.jp/
 
-Platform9: HackerEarth
+Platform9: HackerEarth(HE)
 Website: https://www.hackerearth.com/practice/
 (Get ready for interviews by taking Mock Interview tests from here)
