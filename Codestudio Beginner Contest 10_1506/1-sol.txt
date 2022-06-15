@@ -1,0 +1,11 @@
+public class Solution {
+    public static int equalHappy(int n, int m) {
+		// Write your code here.
+        if(m % n == 0){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+	}
+}

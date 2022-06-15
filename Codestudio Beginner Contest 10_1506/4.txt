@@ -1,0 +1,71 @@
+String Distance
+Difficulty: MEDIUM
+Avg. time to solve
+30 min
+Success Rate
+55%
+Problem Statement
+You are given two strings, ‘S’ and ‘T’, consisting of lowercase English characters.
+Given a string ‘A’, we can modify the string to add any number of space characters at the beginning, end, or anywhere in between the string. Let’s call the modified string ‘MA’.
+You modify the string ‘S’ and ‘T’ to get ‘MS’ and ‘MT’ such that they are both of the same lengths. The distance between the two strings is the sum of the distances between the corresponding characters in the modified strings. The rule to find the distance between two characters is:
+a) Distance between two lowercase English characters is the absolute difference between their ASCII codes.
+b) Distance between a lowercase English character and a space character is a fixed value ‘K’.
+c) Distance between two space characters is 0.
+Your task is to find the minimum distance between the two strings ‘MS’ and ‘MT’. Note that you are given ‘S’ and ‘T’, and you can modify them to produce ‘MS’ and ‘MT’ such that the string distance is minimized.
+Example :
+S = “abc”, T = “ad”, K = 2
+We can keep the string ‘S’ as it is and add a space character between the characters ‘a’ and ‘d’ in the string ‘T’. So ‘MS’ = “abc”, and ‘MT’ = “a d”. The string distance is 0 + 2 + 1 = 3.
+Hence, the answer is 3.
+Input Format :
+The first line contains a single integer ‘T’ denoting the number of test cases, then the test case follows.
+
+The first line of each test case contains a string ‘S’ consisting of lowercase English characters without spaces.
+
+The second line of each test case contains a string ‘T’ consisting of lowercase English characters without spaces.
+
+The third line of each test case contains a single integer ‘K’ denoting the distance between a space character and a lowercase character.
+Output Format :
+For each test case, calculate the minimum distance between the two strings ‘S’ and ‘T’ after modifying (possibly not modifying).
+
+Output for each test case will be printed on a separate line.
+Note :
+You are not required to print anything; it has already been taken care of. Just implement the function.
+Constraints :
+1 ≤ T ≤ 10
+1 ≤ len(S), len(T) ≤ 1000
+1 ≤ K ≤ 10^4
+
+Time limit: 1 sec
+Sample Input 1 :
+2
+ddab
+chheg
+5
+dbag
+cbh
+2
+Sample Output 1 :
+19
+4
+Explanation For Sample Input 1 :
+For test case 1: 
+The cost to combine a lowercase English character and a space character is 5. 
+One way to modify string ‘S’ is to get “ddab “ and ‘T’ to get “chheg”. The string distance, in this case, is 1 + 4 + 7 + 3 + 5(for space) = 20.
+One other way is to modify string ‘S’ to get “d dab” and ‘T’ to get “chheg”. The string distance, in this case, is 1 + 5 + 4 + 4 + 5 = 19.
+It can be proved that the minimum distance is 19; hence we will print 19.
+
+For test case 2:
+The cost to combine a lowercase English character and a space character is 2.
+One way is to modify string ‘S’ to get “dbag” and ‘T’ to get “cb h”. The string distance in this case is 1 + 0 + 2(for space) + 1 = 4.
+It can be proved that the minimum distance is 4; hence we will print 4.
+Sample Input 2 :
+2
+ihhbf
+ebdifeg
+4
+cehdaj
+kehfid
+5
+Sample Output 2 :
+19
+21
