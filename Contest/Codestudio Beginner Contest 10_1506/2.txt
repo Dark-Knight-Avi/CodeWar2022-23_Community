@@ -1,0 +1,52 @@
+Gap
+Difficulty: EASY
+Avg. time to solve
+10 min
+Success Rate
+90%
+Problem Statement
+Ninja is given an array 'A' of size 'N'. Where the 'ith' element represents the marks of the 'ith' student. Ninja is a depressed boy who always secures the last position in his class. He always compares himself with the topper, so he always wanted the gap between his and the topper's marks to be as minimum as possible. You being his good friend, this time you decided to help him.
+To help ninja, you are going to reduce the gap between his (lowest marks among all students after all the operations) and the topper's marks (highest marks among all students after all the operations) before releasing the mark sheet for this, you can choose any two students, and you can increase the marks of the first student by '1' and then also decrease the marks of the second student by '1'. You can do this operation any number of times. In the end, return the gap between the ninja's marks and the topper's marks.
+For example:
+Let’s say N = 3 and A[] = {1,2,3}. 
+Here if we choose the first and the third student and increase the marks of the first student by '1' and decrease the marks of the third student by '1'. Then the final array will be {2, 2, 2}. Now the topper's marks are '2' (highest among all), and the ninja's marks are '2' (lowest among all), So the gap between their marks is 2 - 2 = 0.
+Input Format-
+First-line contains 'T', denoting the number of Test cases.
+For each Test case:
+The first contains a single integer 'N' denoting the size of the array.
+The second line contains 'N' space-separated integers denoting the array 'A' elements.
+Output Format-
+For each test case, you have to print the gap between the marks of the ninja and the topper of the class.
+Note :
+You don't need to print anything. It has already been taken care of. Just implement the given function.
+Constraints -
+1 <= ‘T’ <= 5
+2 <= ‘N’ <= 10^5
+0 <= ‘A[i]’ <= 10^5
+It's guaranteed that sum of 'N' over all test cases does not exceed 10^5.
+
+Time Limit: 1 sec
+Sample Input-1
+2
+2
+2 7
+2
+2 4
+Sample Output-1
+1
+0
+Explanation For Sample Input 1:
+For test case 1:
+    Here if we choose the first and the second student and increase the marks of the first student by ‘1’ and decrease the marks of the second student by ‘1’. After doing this same operation one more time. The final array will be {4, 5}. Now the topper’s marks are ‘5’ (highest among all) and the ninja’s marks are also ‘4’ (lowest among all), So the gap between their marks is 5 - 4 = 1.
+
+For test case 2:
+    Here if we choose the first and the second student and increase the marks of the first student by ‘1’ and decrease the marks of the second student by ‘1’. The final array will be {3, 3}. Now the topper’s marks are ‘3’ (highest among all) and the ninja’s marks are also ‘3’ (lowest among all), So the gap between their marks is 3 - 3 = 0.
+Sample Input -2
+2
+4
+7 6 9 10
+2
+12 10
+Sample Output -2
+0
+0

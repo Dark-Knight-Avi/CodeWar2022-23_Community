@@ -1,0 +1,44 @@
+Equally Happy
+Difficulty: EASY
+Problem Statement
+Ninja has ‘N’ friends, and it's the Ninjafest again.
+A person is ‘K’ units happy if he/she receives ‘K’ candy as a gift. Ninja has exactly ‘M’ candies.
+Your task is to tell if Ninja can make all his friends equally happy after distributing all ‘M’ candies among his friends.
+Example :
+N = 5 
+M = 20
+If Ninja distributes ‘4’ candies to each of his friends, all friends will be 4 units happy, so the answer is ‘1’.
+Input Format :
+The first line contains a single integer ‘T’ denoting the number of test cases. The test cases are as follows.
+
+The first line of each test case contains two integers ‘N’ and ‘M’ denoting the number of friends and number of candies Ninja have.
+Output Format :
+For each test case, print ‘1’ if Ninja can make each friend equally happy after distributing exactly ‘M’ candy else print ‘0’.
+Note :
+You don’t need to print anything. It has already been taken care of. Just implement the given function.
+Constraints :
+1 <= T <= 10
+1 <= N  <= 10^5
+0 <= U, V <= N - 1
+Sum of N <= 10^5
+
+Time Limit: 1 sec
+Sample Input 1 :
+2
+5 5
+5 13    
+Sample Output 1 :
+1
+0
+Explanation Of Sample Input 1 :
+For test case 1, 
+If Ninja distributes ‘1’ candy to each friend all his friends will have ‘1’units of happiness so the answer is ‘1’.
+For test case 2,
+There is No way Ninja can distribute all ‘13’ candies equally among his ‘5’ friends so the answer is ‘0’.
+Sample Input 2 :
+2
+7 14
+5 0
+Sample Output 2 :
+1
+1
