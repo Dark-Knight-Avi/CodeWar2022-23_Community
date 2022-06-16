@@ -1,3 +1,4 @@
+The SQL query contains about the employee bonus from the salary
 # Write your MySQL query statement below
 #select employee_id , 0 bonus
 #from employees 
