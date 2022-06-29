@@ -43,5 +43,6 @@ public class Solution {
             llist.insertNodeAtTail(value);
         }
         llist.printList();
+        
     }
 }
