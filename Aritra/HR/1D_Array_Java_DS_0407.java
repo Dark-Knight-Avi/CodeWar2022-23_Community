@@ -21,7 +21,7 @@ public class Solution {
             a.add(sc.nextInt());
         }
         for(int i = 0; i < n; i++){
-            System.out.println(a.get(i));
+            System.out.println(a.get(i)); 
         }
     }
 }
