@@ -2,7 +2,7 @@
 Greetings from the CodeWars☺️
 
 Solve Daily 5 questions from the below 6 Coding Platforms to crack amazing Interviews.
-These 6 platforms are called Coding Mafia.
+These 9 platforms are called Coding Mafia.
 Strong your CP...
 Gear up👏👏👏
 
