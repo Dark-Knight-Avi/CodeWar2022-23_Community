@@ -1,0 +1,17 @@
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        res_dict = {}  # Dictionary to store the index of each character
+        max_length = 0  # Variable to store the maximum substring length
+        start = 0  # Starting index of the substring
+        
+        for i in range(len(s)):
+            # If the character is in the dictionary and its index is greater than or equal to the starting index
+            if s[i] in res_dict and res_dict[s[i]] >= start:
+                # Move the starting index to the next position after the repeating character
+                start = res_dict[s[i]] + 1
+            # Update the index of the current character in the dictionary
+            res_dict[s[i]] = i
+            # Update the maximum substring length
+            max_length = max(max_length, i - start + 1)
+        
+        return max_length
